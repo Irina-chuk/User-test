@@ -1,0 +1,86 @@
+.users_list_item {
+    position: relative;
+    padding: 13px 41px 0 36px;
+    width: 515px;
+}
+.title {
+    margin-bottom: 16px;
+    font-size: 14px;
+    font-weight: 700;
+    text-align: left;
+
+}
+.btn-edit {
+    position: absolute;
+    top: 13px;
+    right: 50px;
+    height: 27px;
+    width: 116px;
+    border-radius: 5px;
+    background-color: #4B51EF;
+    color: #FFFF;
+    border: none;
+}
+.btn-send {
+    position: absolute;
+    width: 85px;
+    height: 24.12px;
+    right: 43px;
+    bottom: -35px;
+    background: #AFAFAF;
+    border-radius: 5px;
+    color: #FFFF;
+    border: none;
+    }
+
+.user_item {
+    display: flex;
+    padding: 20px 6px 19px 12px;
+    flex-direction: column;
+    width: 438px;
+    height: 463px;
+    background: #FFFFFF;
+    border: 1px solid #F3F3F3;
+    box-sizing: border-box;
+    border-radius: 8px;
+}
+
+.users_input {
+    margin-top: 10px;
+    label {
+        display: block;
+        margin-bottom: 3px;
+        font-weight: 400;
+        font-size: 8px;
+        line-height: 9px;
+        color: #000000;
+    }
+    input {
+        width: 211px;
+        height: 22px;
+        background: #FFFFFF;
+        border: 1px solid #D8D8D8;
+        box-sizing: border-box;
+        border-radius: 5px;
+        font-size: 10px;
+        font-weight: 400;
+        color: #000000;
+        padding: 0 5px;
+        &:read-only {
+            color: rgba(0, 0, 0, 0.3);
+        }
+
+
+    }
+    textarea {
+        width: 420px;
+        height: 55px;
+        background: #FFFFFF;
+        border: 1px solid #D8D8D8;
+        box-sizing: border-box;
+        border-radius: 5px;
+        resize: none;
+
+    }
+}
+

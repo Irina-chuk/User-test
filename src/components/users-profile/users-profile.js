@@ -21,7 +21,7 @@ const UsersProfile = () => {
     const [loading, setLoading] = useState(false);
     const [error, setError] = useState(false);
     const [isRead, setRead] = useState(true);
-    const [comment, setComment] = useState({"": ""});
+    const [comment, setComment] = useState({"comment": ""});
     const [validate, setValidate] = useState(true);
     const userService = new UserService();
 

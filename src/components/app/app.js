@@ -76,9 +76,11 @@ class App extends Component {
                                 <UsersList data={this.onSort(field)}
                                 />
                             </Route>
-                            {/* <Route path="*" element={<ErrorMessage />} />  */}
                             <Route exact path="/users_list/:userId">
                                 <UsersProfile/>
+                            </Route>
+                            <Route path="*">
+                                <ErrorMessage/>
                             </Route> 
                         </Switch> : null}
                           

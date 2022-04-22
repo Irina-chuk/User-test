@@ -27,10 +27,13 @@
     height: 24.12px;
     right: 43px;
     bottom: -35px;
-    background: #AFAFAF;
+    background: #52CF4F;
     border-radius: 5px;
     color: #FFFF;
     border: none;
+    &:disabled {
+        background: #AFAFAF; 
+    }
     }
 
 .user_item {
@@ -69,6 +72,9 @@
         &:read-only {
             color: rgba(0, 0, 0, 0.3);
         }
+        &.error {
+            border: 1px solid #ff0000;
+        }
 
 
     }
@@ -80,6 +86,10 @@
         box-sizing: border-box;
         border-radius: 5px;
         resize: none;
+        font-size: 10px;
+        font-weight: 400;
+        color: #000000;
+        padding: 5px 5px;
 
     }
 }
